@@ -2,9 +2,34 @@ h1{
 	color: #5C6AC4;
 }
 
-p {
+body {
+  background-color: #e3feff;
+  font-size: 16px;
+}
+
+#introduction{
+  color: white;
+  font-size: 20px;
+}
+
+h2 {
+  color: white;
+  font-family: Arial;
+  font-size: 30px;
+}
+
+.section{
+  background: #AAAAAA;
+  padding: 8px;
+  margin: 10px 0;
+}
+
+.sub-section {
   padding: 10px;
 	color: white;
 	background-color: #5C6AC4;
 	width: fit-content;
+	width: 75%;
+	margin: 20px;
+	font-size: 18px;
 }
