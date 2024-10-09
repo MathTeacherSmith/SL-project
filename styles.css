@@ -1,35 +1,51 @@
-h1{
-	color: #5C6AC4;
-}
-
 body {
-  background-color: #e3feff;
-  font-size: 16px;
+  background-color: lightblue;
 }
 
-#introduction{
-  color: white;
-  font-size: 20px;
+#landing-intro {
+  border: 1px solid black;
+  padding: 5px;
+  width: 50%;
+  background-color: #F0EAD6;
+}
+
+
+h1 {
+  color: blue;
 }
 
 h2 {
-  color: white;
-  font-family: Arial;
-  font-size: 30px;
+  color: blue;
 }
 
-.section{
-  background: #AAAAAA;
-  padding: 8px;
-  margin: 10px 0;
+#table-of-contents{
+  border: 1px solid black;
+  padding: 5px;
+  margin: 5px;
+  background-color: white;
+  list-style-position: inside;
+  width: fit-content;
 }
 
-.sub-section {
-  padding: 10px;
-	color: white;
-	background-color: #5C6AC4;
-	width: fit-content;
-	width: 75%;
-	margin: 20px;
-	font-size: 18px;
+#table-of-contents li{
+  margin-bottom: 8px;
+}
+
+.section {
+  margin: 25px;
+  padding: 12px 10px;
+  border-radius: 8px;
+  border: 2px solid blue;
+}
+
+.section.even {
+  background-color: lightyellow;
+}
+
+.section.odd {
+  background-color: lightgreen;
+}
+
+strong {
+  color: blue;
 }
